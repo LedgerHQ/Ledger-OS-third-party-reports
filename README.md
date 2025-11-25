@@ -14,11 +14,11 @@ For more information, please refer to [our information page](https://support.led
 
 ### 2. Import the PGP Public Key
 Download the security laboratory’s PGP public key file from the Synacktiv website:   
-https://www.synacktiv.com/ledger-synacktiv.pub.asc  (Fingerprint: `50BC FFEE 05D5 F641 BABF B486 D49D 950A 8184 F98F`)
+https://www.synacktiv.com/synacktiv-ledger.pub.asc  (Fingerprint: `50BC FFEE 05D5 F641 BABF B486 D49D 950A 8184 F98F`)
 
 Import the key into your GPG keyring using the following command in your terminal :  
 ```
-gpg --import ledger-synacktiv.pub.asc
+gpg --import synacktiv-ledger.pub.asc
 ``` 
 After importing, you should see confirmation that the key has been added successfully.  
 
